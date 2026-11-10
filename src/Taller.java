@@ -39,23 +39,4 @@ public class Taller {
         }
         return invertir(cadena.substring(1)) + cadena.charAt(0);
     }
-
-    public static void main(String[] args) {
-        System.out.println("=== PRUEBAS DEL TALLER DE RECURSIVIDAD ===");
-
-        // Probar Ejercicio 1
-        System.out.println("1. factorial(4) = " + factorial(4)); // Resultado esperado: 120
-
-        // Probar Ejercicio 2
-        System.out.println("2. suma(4) = " + suma(4)); // Resultado esperado: 15
-
-        // Probar Ejercicio 3
-        System.out.println("3. potencia(2, 5) = " + potencia(2, 5)); // Resultado esperado: 32
-
-        // Probar Ejercicio 4
-        System.out.println("4. contarDigitos(123456) = " + contarDigitos(123456)); // Resultado esperado: 5
-
-        // Probar Ejercicio 5
-        System.out.println("5. invertir(\"\") = " + invertir("A")); // Resultado esperado: aloh
-    }
 }
